@@ -6,5 +6,3 @@
 
 ![image](https://github.com/bailingshiva/agriculture-react/blob/master/src/assets/images/3.png)
 
-## npm地址
-https://www.npmjs.com/package/vue-aker-edit
