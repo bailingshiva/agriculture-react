@@ -1,10 +1,10 @@
-# editor
+# agriculture-react
 
-> A Vue.js project
+> react webpack配置（react+sass+react-router+webpack）
 
 ## 图片展示
 
-![image](https://github.com/bailingshiva/vue-aker-edit/blob/master/static/bianjikuan.png)
+![image](https://github.com/bailingshiva/vue-aker-edit/blob/master/src/assets/images/3.png)
 
 ## npm地址
 https://www.npmjs.com/package/vue-aker-edit
