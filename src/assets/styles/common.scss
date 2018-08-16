@@ -1,0 +1,48 @@
+html {font-size: 10px;  }
+@import "base.scss";
+*{padding:0; margin:0; box-sizing: border-box; }
+body{ color: $baseColor;  }
+a{ text-decoration: none;}
+img{ border: none; max-width: 100%;max-height: 100%;}
+.top-nav{ height:50px; position:relative; background:$themeColor; color:$whiteColor;
+  .top-nav-title{@include text-align(center);  @include font-title; line-height: 50px; }
+  .top-nav-icons{@include set-right(1rem,1rem);@include font-title;}
+}
+.home-banner{ max-width: 100%;}
+.home-keywords{ background: $whiteColor; height: 50px; @include font-link; padding: 0 5px;
+  span,a{ display: inline-block; padding: 0 0.5rem; color: $color-grey;height: 50px; line-height: 47px;}
+  & .active{ color: $themeColor; @include border-line(bottom,solid,$themeColor,3px)}
+}
+.home-recommend{
+  background: $greyBg; padding: 1rem 0;
+  .home-recommend-box{
+    width: 50%; display: inline-block; padding: 0 0.5rem;
+    .home-recommend-title{
+      @include font-link;
+      span{
+        @include set-button($matchColor);
+      }
+    }
+  }
+}
+.goods{
+  background: $greyBg;
+  .goods-title{
+    background: $whiteColor;
+    @include font-title;
+    padding: 0.8rem 0.5rem;
+    i{
+      color: $themeColor;padding-right: 0.5rem;
+    }
+   }
+  .goods-list{
+    .goods-box{ margin: 0.5rem 0; background: $whiteColor; height: 8rem; overflow: hidden; position: relative;
+      .goods-img{ position: absolute; width: 6rem; height: 6rem; margin: 1rem;}
+      .goods-right{margin-left: 8rem;padding-right: 1rem;
+        p{ @include font-link; padding-top: 0.5rem;}
+        div{ color: $color-grey;padding-bottom: 1rem;}
+        span{ @include set-button($matchColor);}
+      }
+    }
+  }
+}

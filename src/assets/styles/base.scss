@@ -1,0 +1,51 @@
+
+//基础样式设置
+$baseColor:#666;
+$themeColor:#1e812f;
+$whiteColor:#fff;
+$matchColor:#ed6d26;
+$color-grey:#aaafa9;
+$greyBg:#f3f3f3;
+$titleGreyBg:#f4f4f4;
+@mixin border-line($direction,$type,$color,$width){
+   border-#{$direction}:$type $color $width;
+}
+@mixin font-title{
+   font-size:1.6rem;
+  line-height: 2.4rem;
+}
+@mixin font-link{
+  font-size:1.4rem;
+  line-height: 2.2rem;
+}
+@mixin border-fillet($reg){
+  border-radius:$reg;
+}
+@mixin text-align($align){
+  text-align:$align;
+}
+@mixin set-right($top,$right){
+  position:absolute;
+  top:$top;
+  right:$right;
+}
+@mixin set-button($color){
+  display: inline-block; background: $color; font-size:1.4rem;line-height: 2.2rem;border-radius: 0.5rem; color: $whiteColor; padding:0.1rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
